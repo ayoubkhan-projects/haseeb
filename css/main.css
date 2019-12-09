@@ -491,9 +491,14 @@ body section:nth-child(2) {
   background: #ffffff;
   position: relative;
   overflow: hidden;
+  box-shadow: 0px 0px 14px 5px #d6d6d6;
   text-align: left;
 }
 
+.team-thumb:hover {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 0px 12px 10px #b4b2b2;
+}
 .team-info {
   padding: 20px 30px;
 }
@@ -504,7 +509,7 @@ body section:nth-child(2) {
 
 
 .team-thumb .social-icon {
-  border-top: 1px solid #f0f0f0;
+  border-top: 1px solid #cfcfcf;
   padding: 4px 20px 0 20px;
 }
 
